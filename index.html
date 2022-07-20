@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Hello, world!</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section id='announcement'>
+
+        <h1 class="main-heading">Announcements</h1>
+        <div class="main-div">
+            <div class="content-box">
+                <span class="contentmain">1) THIS IS THE FIRST DUMMY ANNOUNCEMENT. IT WILL BE REPLACED SOON</span>
+                <span class="contentmain content-2">2) THIS IS THE FIRST DUMMY ANNOUNCEMENT. IT WILL BE REPLACED
+                    SOON</span>
+                <span class="contentmain content-3">3) THIS IS THE FIRST DUMMY ANNOUNCEMENT. IT WILL BE REPLACED
+                    SOON</span>
+                <span class="contentmain content-4">4) THIS IS THE FIRST DUMMY ANNOUNCEMENT. IT WILL BE REPLACED
+                    SOON</span>
+                <span class="contentmain content-5">5) THIS IS THE FIRST DUMMY ANNOUNCEMENT. IT WILL BE REPLACED
+                    SOON</span>
+            </div>
+        </div>
+    </section>
+    <section id='register'>
+       
+                                                                                           
+        
+            <img src="IMAGES/shieldafter.png" alt="" id="idshield" onclick="shieldfunc()" class="shield">
+            <div id="idpage" onclick="paperfunc()" class="paper">
+                <form >
+                    <label class="labelclass" for="name">Name:</label><br>
+                    <input class="inputclass" type="text" id="name" name="name"><br>
+                    <label class="labelclass" for="college">College:</label><br>
+                    <input class="inputclass" type="text" id="college" name="college"><br>
+                    <label class="labelclass" for="events">Events to take part in:</label><br>
+                    <input class="inputclass" type="text" id="events" name="college"><br>
+           
+                    <label class="labelclass" for="college">College ID Card Upload Image:</label><br>
+                    <input class="inputclass" type="file" id="myFile" name="filename">
+                    <br>
+
+                    
+                    
+                    <!-- <label class="labelclass" for="fname">First name:</label><br>
+                    <input class="inputclass" type="text" id="fname" name="fname"><br>
+                    <label class="labelclass" for="fname">First name:</label><br>
+                    <input class="inputclass" type="text" id="fname" name="fname"><br><br> -->
+                    <input class="submitbtn" type="submit" value="Submit">
+                  </form> 
+
+            </div>
+               
+
+                
+        
+    </section>
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script>
+        var  abox = document.getElementsByClassName("shield")[0];
+        var  bbox = document.getElementsByClassName("paper")[0];
+        let  cbox = document.getElementsByClassName("labelclass")[0];
+        let  dbox = document.getElementsByClassName("inputclass")[0];
+        let  ebox = document.getElementsByClassName("labelclass")[1];
+        let  fbox = document.getElementsByClassName("inputclass")[1];
+        let  gbox = document.getElementsByClassName("labelclass")[2];
+        let  hbox = document.getElementsByClassName("inputclass")[2];
+        let  ibox = document.getElementsByClassName("labelclass")[3];
+        let  jbox = document.getElementsByClassName("inputclass")[3];
+
+        let  submitbox = document.getElementsByClassName("submitbtn")[0];
+       
+        function shieldfunc(){
+        
+            abox.classList.toggle("move-shield");
+            bbox.classList.toggle("paper-move");
+            cbox.classList.toggle("label-move");
+            dbox.classList.toggle("input-move");
+            ebox.classList.toggle("label-move");
+            fbox.classList.toggle("input-move");
+            gbox.classList.toggle("label-move");
+            hbox.classList.toggle("input-move");
+            ibox.classList.toggle("label-move");
+            jbox.classList.toggle("input-move");
+            submitbox.classList.toggle("submitbtn-move");
+            
+      
+        }
+        
+        
+        // function paperfunc(){
+        //     abox.classList.toggle("move-shield");
+            
+        // }
+    </script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1195 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/* SETTING THE BACKGROUND IMAGES  */
+
+#announcement {
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+  background: url(IMAGES/Announcement.jpg) no-repeat center center/cover;
+  background-size: cover;
+}
+
+#register {
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+  background: url(IMAGES/register.jpg) no-repeat center center/cover;
+  background-size: cover;
+  top: 100%;
+}
+
+
+/* ANNOUNCEMENT  ANNOUNCEMENT ANNOUNCEMENT ANNOUNCEMENT ANNOUNCEMENT */
+
+#announcement h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Angel rhapsody";
+  font-size: 8vw;
+  padding-top: 0px;
+  margin-top: 6vh;
+  margin-bottom: 4vh;
+}
+
+
+@media screen and (max-width: 450px) {
+  #announcement h1 {
+    margin-top: 15vh;
+  }
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 59vh;
+  width: 60vw;
+  color: white;
+  background: linear-gradient(154.82deg,
+      rgba(152, 152, 152, 0.65) -1.48%,
+      rgba(30, 29, 29, 0.523197) 23.68%,
+      rgba(0, 0, 0, 0.39) 50.11%,
+      rgba(79, 78, 78, 0.35) 70.72%,
+      rgba(243, 243, 243, 0.2) 100%);
+
+  box-shadow: 10px 4px 19px rgba(0, 0, 0, 0.82),
+    -10px 4px 19px rgba(0, 0, 0, 0.82);
+  border-radius: 32px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 450px) {
+  .content-box {
+    width: 80vw;
+  }
+}
+
+.contentmain {
+  display: block;
+  opacity: 0;
+  animation: revealText 0.5s forwards;
+  font-size: 1.4vw;
+  /* font-family: 'New Sailor'; */
+  font-family: 'Raleway';
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.content-2 {
+  animation-delay: 0.5s;
+}
+
+.content-3 {
+  animation-delay: 1s;
+}
+
+.content-4 {
+  animation-delay: 1.5s;
+}
+
+.content-5 {
+  animation-delay: 2s;
+}
+
+@keyframes revealText {
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contentmain {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .contentmain {
+    margin-top: 15px;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contentmain {
+    margin-top: 15px;
+    font-size: 2.7vw;
+  }
+}
+
+
+
+/* REGISTER */
+/* REGISTER */
+/* REGISTER */
+/* REGISTER */
+/* REGISTER */
+
+
+
+
+
+/* SHIELD */
+
+.shield {
+  width: 40vw;
+  height: 75%;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 111px;
+  margin-bottom: auto;
+  z-index: 9;
+  border: none;
+  /* opacity: 0.8; */
+
+  /* background: url('IMAGES/shield.png') no-repeat center center/cover; */
+  transition: all 2000ms ease-in-out;
+  cursor: pointer;
+
+}
+
+
+.move-shield {
+
+  animation-name: example;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+  from {
+    margin-left: 29vw;
+  }
+
+  to {
+    margin-left: 6vw;
+
+  }
+
+}
+
+
+@media screen and (max-width: 1356px) {
+  .shield {
+    width: 45vw;
+    height: 65%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 131px;
+    margin-bottom: auto;
+    z-index: 9;
+    border: none;
+ 
+
+    /* background: url('IMAGES/shield.png') no-repeat center center/cover; */
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+
+  }
+
+
+  .move-shield {
+
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes example {
+    from {
+      margin-left: 33vw;
+    }
+
+    to {
+      margin-left: 2vw;
+
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .shield {
+    width: 450px;
+    height: 65%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 131px;
+    margin-bottom: auto;
+    z-index: 9;
+    border: none;
+   
+
+    /* background: url('IMAGES/shield.png') no-repeat center center/cover; */
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+
+  }
+
+
+  .move-shield {
+
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes example {
+    from {
+      width: 450px;
+      height: 65%;
+    }
+
+    to {
+      width: 160px;
+      height: 14%;
+
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .shield {
+    width: 350px;
+    height: 45%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 131px;
+    margin-bottom: auto;
+    z-index: 9;
+    border: none;
+    /* opacity: 0.8; */
+
+    /* background: url('IMAGES/shield.png') no-repeat center center/cover; */
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+
+  }
+
+
+  .move-shield {
+
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes example {
+    from {
+      width: 350px;
+      height: 45%;
+    }
+
+    to {
+      width: 150px;
+      height: 14%;
+
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 365px) {
+  .shield {
+    width: 250px;
+    height: 35%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 131px;
+    margin-bottom: auto;
+    z-index: 9;
+    border: none;
+    /* opacity: 0.8; */
+
+    /* background: url('IMAGES/shield.png') no-repeat center center/cover; */
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+
+  }
+
+
+  .move-shield {
+
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes example {
+    from {
+      width: 250px;
+      height: 35%;
+    }
+
+    to {
+      width: 140px;
+      height: 13%;
+
+    }
+
+  }
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 900px) {
+  .shield {
+    width: 55%;
+    height: 95%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: auto;
+    z-index: 9;
+    border: none;
+    opacity: 0.8;
+  
+    background: url('IMAGES/shield.png') no-repeat center center/cover;
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+  
+  }
+  
+  
+  .move-shield {
+  
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+  
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes example {
+    from {
+      width: 55%;
+    height: 75%;
+    }
+  
+    to {
+      width: 15%;
+      height: 20%;
+    }
+  
+  }
+
+} 
+
+
+@media screen and (max-width: 770px) {
+  .shield {
+    width: 57%;
+    height: 99%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: auto;
+    z-index: 9;
+    border: none;
+    opacity: 0.8;
+  
+    background: url('IMAGES/shield.png') no-repeat center center/cover;
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+  
+  }
+  
+  
+  .move-shield {
+  
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+  
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes example {
+    from {
+      width: 57%;
+      height: 55%;
+    }
+  
+    to {
+      width: 17%;
+      height: 15%;
+    }
+  
+  }
+
+} 
+
+ 
+
+
+@media screen and (max-width: 770px) {
+  .container {
+    width: 50%;
+    height: 89%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  .shield {
+    width: 57%;
+    height: 55%;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: auto;
+    z-index: 9;
+    border: none;
+    opacity: 0.8;
+  
+    background: url('IMAGES/shield.png') no-repeat center center/cover;
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+  
+  }
+  
+  
+  .move-shield {
+  
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+  
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes example {
+    from {
+      width: 57%;
+      height: 55%;
+    }
+  
+    to {
+      width: 17%;
+      height: 15%;
+    }
+  
+  }
+
+}  */
+
+
+
+/* FORM PAPER  */
+
+
+.paper {
+  width: 18vw;
+  height: 34vh;
+  position: absolute;
+  padding-left: 0vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 140px;
+  /* opacity: 0.8; */
+
+  top: 0;
+  bottom: 0;
+  right: 0px;
+  left: 0px;
+
+  background: url('IMAGES/form.jpg');
+
+
+
+  transition: all 1s ease-in-out 1s;
+  /* padding: 10px; */
+  cursor: pointer;
+  
+
+}
+
+.paper-move {
+  animation-name: example1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes example1 {
+  from {
+    width: 18vw;
+    height: 34vh;
+    margin-top: 140px;
+    padding-left: 0vw;
+    margin-left: 40vw;
+  }
+
+  to {
+    width: 49vw;
+    height: 66vh;
+    margin-top: 140px;
+    padding-left: 2vw;
+    
+    margin-left: 28vw;
+
+
+
+  }
+
+}
+
+@media screen and (max-width: 1356px) {
+  .paper {
+    width: 18vw;
+  height: 30vh;
+  position: absolute;
+  padding-left: 0vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 140px;
+  /* opacity: 0.8; */
+
+  top: 0;
+  bottom: 0;
+  right: 0px;
+  left: 0px;
+
+  background: url('IMAGES/form.jpg');
+
+
+
+  transition: all 1s ease-in-out 1s;
+  /* padding: 10px; */
+  cursor: pointer;
+    
+
+  }
+
+  .paper-move {
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes example1 {
+    from {
+      width: 18vw;
+      height: 30vh;
+      margin-top: 140px;
+    }
+
+    to {
+      /* width: 59vw;
+      height: 54vh;
+      margin-top: 160px;
+      padding-left: 140px;
+      padding-right: 10px;
+      padding-top: 130px;
+      margin-left: 30vw; */
+      /* width: 49vw;
+      height: 66vh; */
+      width: 59vw;
+      height: 54vh;
+      margin-top: 160px;
+      
+      
+      margin-left: 30vw;
+
+
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .paper {
+
+    width: 18vw;
+  height: 30vh;
+  position: absolute;
+  padding-left: 0vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 140px;
+  /* opacity: 0.8; */
+
+  top: 0;
+  bottom: 0;
+  right: 0px;
+  left: 0px;
+
+  background: url('IMAGES/form.jpg');
+
+
+
+  transition: all 1s ease-in-out 1s;
+  /* padding: 10px; */
+  cursor: pointer;
+    
+
+  }
+
+  .paper-move {
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes example1 {
+    from {
+      width: 18vw;
+      height: 30vh;
+      margin-top: 140px;
+    }
+
+    to {
+      width: 59vw;
+      height: 74vh;
+      margin-top: 160px;
+
+
+
+
+    }
+
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .paper {
+
+    width: 18vw;
+  height: 30vh;
+  position: absolute;
+  padding-left: 0vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 140px;
+  /* opacity: 0.8; */
+
+  top: 0;
+  bottom: 0;
+  right: 0px;
+  left: 0px;
+
+  background: url('IMAGES/form.jpg');
+
+
+
+  transition: all 1s ease-in-out 1s;
+  /* padding: 10px; */
+  cursor: pointer;
+    
+
+  }
+
+  .paper-move {
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes example1 {
+    from {
+      width: 18vw;
+      height: 30vh;
+      margin-top: 140px;
+    }
+
+    to {
+      width: 72vw;
+      height: 72vh;
+      margin-top: 160px;
+
+
+
+
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+.inputclass {
+  height: 1vh;
+
+  width: 1vw;
+  margin-bottom: 0px;
+  border: none;
+  font-family: 'Raleway';
+
+}
+
+.input-move {
+  animation-name: inputt;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+}
+
+
+@keyframes inputt {
+
+  from
+  {
+    height: 1vh;
+
+  width: 1vw;
+  margin-bottom: 0px;
+
+  }
+  to {
+    height: 3.4vh;
+    width: 20vw;
+  margin-bottom: 2.4vh;
+  }
+}
+
+@media screen and (max-width: 1356px)
+{
+  .inputclass {
+    height: 1vh;
+  
+    width: 1vw;
+    margin-bottom: 0px;
+    border: none;
+    font-family: 'Raleway';
+  
+  }
+  
+  .input-move {
+    animation-name: inputt;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  
+  @keyframes inputt {
+  
+    from
+    {
+      height: 1vh;
+  
+    width: 1vw;
+    margin-bottom: 0px;
+  
+    }
+    to {
+      height: 3.4vh;
+      width: 26vw;
+    margin-bottom: 2vh;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .inputclass {
+    height: 1vh;
+  
+    width: 1vw;
+    margin-bottom: 0px;
+    border: none;
+    font-family: 'Raleway';
+  
+  }
+  
+  .input-move {
+    animation-name: inputt;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  
+  @keyframes inputt {
+  
+    from
+    {
+      height: 1vh;
+  
+    width: 1vw;
+    margin-bottom: 0px;
+  
+    }
+    to {
+      height: 3.4vh;
+      width: 36vw;
+    margin-bottom: 2vh;
+    }
+  } 
+}
+
+@media screen and (max-width: 500px)
+{
+  .inputclass {
+    height: 1vh;
+  
+    width: 1vw;
+    margin-bottom: 0px;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 2.8vw;
+  
+  }
+  
+  .input-move {
+    animation-name: inputt;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  
+  @keyframes inputt {
+  
+    from
+    {
+      height: 1vh;
+  
+    width: 1vw;
+    margin-bottom: 0px;
+  
+    }
+    to {
+      height: 3.4vh;
+      width: 56vw;
+    margin-bottom: 2vh;
+    }
+  } 
+}
+
+
+
+
+
+.labelclass {
+  font-family: 'New Sailor';
+  font-weight: lighter;
+  font-size: 0.4vw;
+}
+
+.label-move {
+  animation-name: labell;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+}
+
+
+@keyframes labell {
+
+  from
+  {
+    font-family: 'New Sailor';
+  font-weight: lighter;
+  font-size: 0.4vw;
+
+  }
+  to {
+    font-family: 'New Sailor';
+    font-weight: bold;
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 1356px)
+{
+  .labelclass {
+    font-family: 'New Sailor';
+    font-weight: lighter;
+    font-size: 0.4vw;
+  }
+  
+  .label-move {
+    animation-name: labell;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  
+  @keyframes labell {
+  
+    from
+    {
+      font-family: 'New Sailor';
+    font-weight: lighter;
+    font-size: 0.4vw;
+  
+    }
+    to {
+      font-family: 'New Sailor';
+      font-weight: bold;
+      font-size: 1.7vw;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1000px)
+{
+  .labelclass {
+    font-family: 'New Sailor';
+    font-weight: lighter;
+    font-size: 0.4vw;
+  }
+  
+  .label-move {
+    animation-name: labell;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  
+  @keyframes labell {
+  
+    from
+    {
+      font-family: 'New Sailor';
+    font-weight: lighter;
+    font-size: 0.4vw;
+  
+    }
+    to {
+      font-family: 'New Sailor';
+      font-weight: bold;
+      font-size: 3.3vw;
+    }
+  }
+  
+  
+
+}
+
+@media screen and (max-width: 550px)
+{
+
+  .labelclass {
+    font-family: 'New Sailor';
+    font-weight: lighter;
+    font-size: 0.4vw;
+  }
+  
+  .label-move {
+    animation-name: labell;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  
+  @keyframes labell {
+  
+    from
+    {
+      font-family: 'New Sailor';
+    font-weight: lighter;
+    font-size: 0.4vw;
+  
+    }
+    to {
+      font-family: 'New Sailor';
+      font-weight: bold;
+      font-size: 5.3vw;
+    }
+  }
+
+}
+
+
+
+.submitbtn
+{
+
+  height: 0.4vw;
+  width: 1vw;
+  margin: 1.6vw 0vw 2vw 0vw;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.submitbtn-move {
+  animation-name: submit;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes submit {
+
+  from
+  {
+    height: 0.4vw;
+  width: 1vw;
+  margin: 1.6vw 0vw 2vw 0vw;
+  border-radius: 10px;
+  border: none;
+  }
+
+  to
+  {
+    height: 2.4vw;
+  width: 9vw;
+  margin: 1.6vw 0vw 2vw 0vw;
+  border-radius: 5px;
+  border: none;
+  }
+}
+
+
+
+
