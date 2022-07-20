@@ -46,7 +46,7 @@ body {
 
 @media screen and (max-width: 450px) {
   #announcement h1 {
-    margin-top: 13vh;
+    margin-top: 16vh;
     font-size: 10vw;
   }
 }
