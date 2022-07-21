@@ -770,12 +770,14 @@ body {
   height: 30vh;
   position: absolute;
   padding-left: 0vw;
+  padding-right: 0vw;
 
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+    
 
   margin-top: 140px;
   /* opacity: 0.8; */
