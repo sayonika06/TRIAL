@@ -704,7 +704,7 @@ body {
   .paper {
 
     width: 18vw;
-  height: 20vh;
+  height: 30vh;
   position: absolute;
   padding-left: 0vw;
 
@@ -746,7 +746,7 @@ body {
   @keyframes example1 {
     from {
       width: 18vw;
-      height: 20vh;
+      height: 30vh;
       margin-top: 140px;
     }
 
@@ -767,7 +767,7 @@ body {
   .paper {
 
     width: 18vw;
-  height: 20vh;
+  height: 30vh;
   position: absolute;
   padding-left: 0vw;
 
@@ -809,7 +809,7 @@ body {
   @keyframes example1 {
     from {
       width: 18vw;
-      height: 20vh;
+      height: 30vh;
       margin-top: 140px;
     }
 
